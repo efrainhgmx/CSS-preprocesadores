@@ -1,0 +1,15 @@
+extends componentes/plantilla.pug
+block contenidos
+        section.intro 
+            .intro__imagen: img(src="images/imagen.png", alt="imagen")
+            .intro__contenido
+                h2 #{titulos[0]}
+                p 
+                    | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea fuga dicta repellat eligendi aliquid nulla sapiente consequatur. Ipsam est hic adipisci iusto consequatur neque illum, quae, eos ut, natus saepe.
+                    span Ipsam est hic adipisci iusto consequatur neque
+                a.boton Leer más
+        main.contenido
+            +caja('imagen.png', titulos[1],'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea fuga dicta repellat eligendi aliquid nulla sapiente consequatur.')
+            +caja('imagen.png', titulos[2],'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea fuga dicta repellat eligendi aliquid nulla sapiente consequatur.')
+            +caja('imagen.png', titulos[3],'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea fuga dicta repellat eligendi aliquid nulla sapiente consequatur.')
+            

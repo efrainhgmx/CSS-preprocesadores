@@ -1,0 +1,42 @@
+.encabezado--con-filtros h2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Fuente2;
+}
+.encabezado--con-filtros .filtros {
+  width: 250px;
+  height: 75px;
+  padding: 20px;
+  margin-left: auto;
+}
+.encabezado--con-filtros .filtros span {
+  text-transform: uppercase;
+  font-family: Fuente2;
+}
+.encabezado--con-filtros .filtros a {
+  margin-left: 20px;
+  font-size: 25px;
+}
+.contenido {
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+.caja {
+  max-width: 400px;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: color-claro;
+}
+.caja__contenido span {
+  text-transform: uppercase;
+  color: color-secundario;
+  font-family: Fuente2;
+}
+.caja__contenido height {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: Fuente2;
+}

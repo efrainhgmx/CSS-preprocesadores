@@ -1,0 +1,11 @@
+extends componentes/plantilla.pug
+block contenidos
+    main.contenido.intro__contenido
+        nav.caja__contenido.caja__imagen
+            ul Menu
+                each enlace in enlaces
+                    li=enlace
+        section.caja.caja__imagen
+            h1 Título principal
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus dicta voluptatum possimus commodi veritatis consectetur quis nulla explicabo amet ut modi eveniet porro quaerat, enim, perspiciatis beatae aut. Aperiam.
+            a.boton Ver Más
